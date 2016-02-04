@@ -1,0 +1,184 @@
+
+.full_screen_carousel {
+	background:url(../../../../images/LPL_ConsultingforBusiness_background.jpg) no-repeat center center;
+	background-size:cover;
+	height:410px;
+	position:relative;
+	font-family: 'univers-light';
+	text-rendering: optimizeLegibility !important;
+
+    -webkit-font-smoothing: antialiased !important;
+     width:100%;
+	@media #{$small-only} { 
+	background:url(../../../../images/LPLCBusiness_MOBILE.jpg) no-repeat center center;
+	background-size:cover;
+	}
+	
+	@media #{$medium-only} {
+	background:url(../../../../images/LPL_Tablet_CBusiness.png) no-repeat center center;
+	background-size:cover;
+	}
+.carousel_heading {
+	font-size: 24px;
+	width:100%;
+	position:relative;
+	text-align:center;
+	top:6%;
+	h3 {
+		color: $lpl-white;
+	}
+	@media #{$medium-only} {
+	top:4%;
+	text-align:center;
+	}
+	@media #{$small-only} {
+	top:3%;
+	font-size: 21px;
+	text-align:center;
+	}
+	@media only screen and (min-width: 600px) and (max-width: 1200px) {
+	top:4%;
+	}
+}
+
+
+.carousel-class {
+font-family: 'univers-light';
+font-size: 18px;
+width: 40%;
+
+	position: absolute;
+	transform: translate(-50%, -50%);
+	left: 50%;
+	top: 50%;
+	color:$lpl-white;
+	@media #{$medium-only} {
+	width: 70%;
+	}
+	@media #{$small-only} {
+	width: 80%;
+	}	
+.slide {
+height:300px;
+@media #{$small-only} {
+	height:330px;
+	}
+	@media only screen and (min-width: 600px) and (max-width: 1200px) {
+	height:330px;
+	 }
+
+}	
+
+p{
+		color: $lpl-white;
+		border:none;
+		position:relative;
+		top:17px;
+		
+	@media #{$medium-only} {
+	text-align:center;
+	}
+	@media #{$small-only} {
+	text-align:center;
+	}	
+	}
+	
+.slick-dots li{
+    margin:0px;
+    button {
+    border: 1px solid $lpl-white;
+    border-radius: 20px;
+    height: 5px;
+    width: 5px;
+    padding: 4px;
+    margin-top: 4px;
+    margin-left: 5px;
+      }
+	  
+	button::before {
+	font-size:34px;
+	@media #{$small-only} {
+	font-family: inherit;
+    margin-left: 3px;
+    margin-top: -2px;
+	top:7px;
+	left:-1px;
+	@-moz-document url-prefix() { 
+     margin-top: 0;
+    top: 7px;
+	font-size:39px;
+ }
+	
+	
+	}
+	} 
+	button {
+	@-moz-document url-prefix() { 
+     margin-top:5px;
+ }
+	@media #{$small-only} {
+	font-family: inherit;
+    padding:6px;
+	
+	}
+	
+	}
+}
+.slick-active button:before {color:$lpl-white;}
+
+.slick-prev {
+left:-72px;
+background:url(../../../../images/prev-arrow.png) no-repeat center center;
+
+@media #{$small-only} {
+	left:-14px;
+	opacity:0;
+	}
+	
+	
+}
+.slick-next {
+	right:-72px;
+background:url(../../../../images/NextArrow.png) no-repeat center center;
+@media #{$small-only} {
+	right:-14px;
+	opacity:0;
+	}
+
+}
+.slick-prev,.slick-next {
+background-size: 24px 33px;
+width:24px;
+height:33px;
+margin-top:-19px; 
+
+
+}
+.slick-prev:before, .slick-next:before { content:'';}
+	
+ }
+ .carousel_button {
+	position:relative;
+	bottom:-16%;
+	width:100%;
+	text-align:center;
+	@media #{$medium-only} {
+	bottom:-13%;
+	}
+	@media #{$small-only} {
+	bottom:-10%;
+	}
+	@media only screen and (min-width: 600px) and (max-width: 1200px) {
+	bottom:-15%;
+	 }
+	
+	a {
+	color: $lpl-white;
+	border-color: $lpl-white;
+}
+
+}
+
+
+}
+ 

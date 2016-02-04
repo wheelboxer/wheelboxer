@@ -1,0 +1,94 @@
+/*
+* footer styles
+*/
+
+.footer-topics{
+	background-color: $lpl-blue;
+	padding: 65px 0 45px 0;
+	
+	//footer company information styles
+	.companyInfo{
+		color: $lpl-white;
+		font-family: 'univers-bold-cn';
+		font-size: em-calc(14);
+		.companyInfoTop{
+			margin-bottom:25px;
+		}
+		.companyInfoBottom{
+			.telno{
+				font-family: 'univers-cn';
+			}
+		}
+		
+		@media #{$medium-only} {
+			.companyInfoTop 
+			{
+				margin-bottom:50px;
+			}
+	    }
+		@media #{$small-only} {
+			.companyInfoTop{
+				font-size: em-calc(12);
+				font-family: 'univers-cn';
+			}
+		}
+	}
+	@media #{$small-only} {
+		.companyInfo
+		{
+			margin-bottom:25px;
+		}
+	}
+	
+	//footer links styles
+	.links{
+		ul{
+			padding: 0;
+			margin: 0;
+			li{
+				padding: 0 0 14px 0;
+				margin: 0;
+				list-style: none;
+				a{
+					color: $lpl-white;
+					text-decoration: none;
+					font-family: 'univers-cn';
+					font-size: em-calc(18);
+				}
+			}
+			@media #{$medium-only} {
+				li 
+				{
+					padding: 0 0 20px 0;
+				}
+			}
+		}
+	}
+	
+	
+	//footer company address styles
+	.companyAddresses{
+		color: $lpl-white;
+		font-family: 'univers-cn';
+		.title{
+			font-size: em-calc(21);
+			display:block;
+		}
+		.address{
+			font-size: em-calc(14);
+			display:block;
+			margin-bottom: 20px;
+		}
+		@media #{$small-only} {
+			.title, .address{
+				font-size: em-calc(12);
+			}
+		}
+	}
+	@media #{$small-only} {
+	.companyAddresses
+		{
+			margin-top:20px;
+		}
+	}
+}

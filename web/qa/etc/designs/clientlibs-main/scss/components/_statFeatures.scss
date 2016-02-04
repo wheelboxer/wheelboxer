@@ -1,0 +1,57 @@
+/*
+* Featured Topics Component Styles
+*/
+
+.stats-featured-topics {
+	padding: 85px 0 95px 0;
+	text-align: center;
+	@media #{$small-only} {
+		padding: 55px 0 85px 0;
+	}
+	h2{
+		margin-top: 0;
+		margin-bottom: 85px;
+		font-family: 'univers-ultra-cn';
+		font-size: 52px;
+		@media #{$small-upto-medium} {
+			margin-bottom: 0px;
+			font-size: 42px;
+		}
+		@media #{$small-only} {
+			line-height: normal;
+			font-size: 36px;
+		}
+	}
+	.stats-featured-topics-row{
+		margin-bottom: 100px;
+		.featured-topic {
+			.fa:before{
+				font-size: 60px;
+			}
+			h2{
+				font-family: 'univers-cn';
+				font-size: 60px;
+				margin-top: 20px;
+				margin-bottom: 0px;
+			}
+			p
+			{
+				font-family: 'univers-light';
+				font-size: 16px;
+				color: $lpl-black;
+				margin-top: 0;
+				paddint-top: 0;
+			}
+			.global-btn{
+				font-family: 'univers-light';
+				font-size: 16px;
+			}
+			@media #{$small-only} {
+				padding-top: 55px;
+			}
+		}
+		@media #{$small-only} {
+			margin-bottom: 80px;
+		}
+	}
+}

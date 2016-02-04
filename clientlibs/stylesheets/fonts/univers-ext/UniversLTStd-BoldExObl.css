@@ -1,0 +1,12 @@
+/* Webfont: UniversLTStd-BoldExObl */@font-face {
+    font-family: 'UniversLTStd53Extended';
+    src: url('UniversLTStd-BoldExObl.eot'); /* IE9 Compat Modes */
+    src: url('UniversLTStd-BoldExObl.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('UniversLTStd-BoldExObl.woff') format('woff'), /* Modern Browsers */
+         url('UniversLTStd-BoldExObl.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('UniversLTStd-BoldExObl.svg#UniversLTStd-BoldExObl') format('svg'); /* Legacy iOS */
+    font-style: italic;
+    font-weight: bold;
+    text-rendering: optimizeLegibility;
+}
+

@@ -1,0 +1,229 @@
+.text_promo_section {
+	
+	
+	.main_div {
+		font-family: 'univers-light';
+		position:relative;
+		width:100%;
+		height:800px;
+		background:url(../../../../images/LPL_Desktop_Advisor_Assistance_bg.jpg) no-repeat center center;
+		background-size:cover;
+		
+		@media #{$medium-only} {
+			background:url(../../../../images/LPL_Tablet_Advisor_Assistance_bg.jpg) no-repeat center center;
+			background-size:cover;
+			 
+	height:1000px;
+	}
+	@media #{$small-only} {
+		background:url(../../../../images/LPL_Advisor_Assistance_MOBILE_bg.jpg) no-repeat center center;
+		background-size:cover;
+		height:1350px;
+	
+		}
+		
+	.main_header {
+		width:100%;
+		font-size:36px;
+		position:relative;
+		text-align:center;
+		top:10%;
+		color:#fff;
+		@media #{$medium-only} {
+			
+	top:5%;
+	
+	}
+	@media #{$small-only} {
+		top:1%;
+		
+				}
+		
+		}	
+	.main_content_button {
+		width:100%;
+		position:absolute;
+		text-align:center;
+		bottom:12%;
+		@media #{$medium-only} {
+			
+bottom:6%;
+	
+	}
+	@media #{$small-only} {
+		bottom:2%;
+		font-size:18px;
+		
+				}
+		
+		
+		}	
+		
+		.sub_div {
+		width:87%;
+		height:340px;
+		
+		
+		position:absolute;
+		left:50%;
+		top:50%;
+		transform: translate(-50%, -50%);
+		
+		@media #{$medium-only} {
+			
+		height:auto;
+		width:90%;	 
+		left:5%;
+		top:16%;
+		transform:none;
+	
+	}
+	@media #{$small-only} {
+		height:auto;
+		width:90%;	 
+		left:5%;
+		top:12%;
+		transform:none;
+		
+		
+				}
+	@media only screen and (min-width: 600px) and (max-width: 1200px) {
+	
+	
+	}
+		
+		.container_1 {
+			background-color:#fff;
+			display:inline-block;
+			width:31.5%;
+			height:340px;
+			text-align:center;
+			position:relative;
+        .slide_div {width:85%;position:relative;left:50%;
+		top:50%;
+		transform: translate(-50%, -50%);
+		.slick-track {height:340px;}
+		
+		
+		.slick-prev {
+ left:-18px;
+background:url(../../../../images/prev-arrow_blue.png) no-repeat center center;
+height:28px;
+
+@media #{$small-only} {
+	left:-14px;
+	opacity:0;
+	}
+	
+	
+}
+.slick-next {
+	 right:-18px;
+background:url(../../../../images/NextArrow_blue.png) no-repeat center center;
+height:28px;
+@media #{$small-only} {
+	right:-14px;
+	opacity:0;
+	}
+
+}
+.slick-prev:before, .slick-next:before { content:'';}
+		
+			.header  { width:20%;position:absolute;text-align:center;top:12%;font-size:28px;padding:10px;}
+			.content { width:85%;position:relative;top:50%;left:50%;
+			transform:translate(-50%,-50%); }
+			.content_button { position:relative;top:50%;}
+		
+		}
+			
+		
+		 @media #{$medium-only} {
+			 width:48%;
+			 
+	
+	}
+	@media #{$small-only} {
+	
+	width:100%;
+	display:block;
+		}
+	@media only screen and (min-width: 600px) and (max-width: 1200px) {
+	
+	
+	}
+		
+		
+		
+		
+			}
+			
+		.container_2 {
+			background-color:#fff;
+			display:inline-block;
+			width:31.5%;
+			height:340px;
+			position:absolute;
+			left:34.35%;
+			text-align:center;
+			
+			.header  { width:100%;position:absolute;text-align:center;top:12%;font-size:28px;padding:10px;}
+			.content { width:85%;position:relative;top:50%;left:50%;
+			transform:translate(-50%,-50%); }
+			.content_button { position:relative;top:50%;text-align:center;}
+			
+			 @media #{$medium-only} {
+	 width:48%;
+	 position:absolute;
+     left:52%;
+	}
+	@media #{$small-only} {
+	width:100%;
+	display:block;
+	left:0;
+	top:360px;
+	
+		}
+	@media only screen and (min-width: 600px) and (max-width: 1200px) {
+	
+	
+	}
+			
+			}
+		.container_3{
+			background-color:#fff;
+			display:inline-block;
+			width:31.5%;
+			height:340px;
+			position:relative;
+			float:right;
+			text-align:center;
+			
+			.header  { width:100%;position:absolute;text-align:center;top:12%;font-size:28px;padding:10px;}
+			.content { width:85%;position:relative;top:50%;left:50%;
+			transform:translate(-50%,-50%); }
+			.content_button { position:relative;top:56%;text-align:center;}
+			
+			 @media #{$medium-only} {
+	position:absolute;
+	width:48%;
+	display:block;
+	left:25%;
+	top:360px;
+		}
+	@media #{$small-only} {
+	width:100%;
+	display:block;
+	left:0;
+	top:388px;
+		}
+	@media only screen and (min-width: 600px) and (max-width: 1200px) {
+	
+	
+	}
+			
+			
+			}				
+		}
+		}
+	
+	}

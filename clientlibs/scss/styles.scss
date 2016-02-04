@@ -1,0 +1,22 @@
+@import "settings";
+//@import "foundation";
+
+// Or selectively include components
+ @import
+ "components/fonts"
+ ,"normalize"
+ //,"font-awesome/font-awesome.min.css",
+// ,"font-awesome/font-awesome"
+ ,"foundation/components/global"
+ ,"foundation/components/grid"
+ ,"components/site-globals"
+// , "slick/slick"
+// ,"slick/slick-theme"
+// ,"components/page-globals"
+ ,"components/foundation-custom"
+ ,"components/instagram-module"
+ ,"components/logo"
+ 
+ ;
+
+

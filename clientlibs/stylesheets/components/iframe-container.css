@@ -1,0 +1,21 @@
+/* line 1, ../../scss/components/iframe-container.scss */
+.iframe-container {
+  min-height: 980px;
+  position: relative;
+  margin: 50px 0;
+}
+/* line 9, ../../scss/components/iframe-container.scss */
+.iframe-container iframe {
+  position: absolute;
+  /* top:125px;*/
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/* line 21, ../../scss/components/iframe-container.scss */
+.relative-container {
+  position: relative;
+  min-height: 500px;
+}

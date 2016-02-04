@@ -1,0 +1,355 @@
+
+
+
+.news_shareprice_section_main_div {
+	background:url(../../../../images/LPL_Desktop_Home.jpg) no-repeat;
+	background-size:cover;
+	width:100%;
+	position:relative;
+	
+	
+	
+	
+	@media #{$small-only} { 
+	width:100%;	
+	background:none;
+    background-color:#ccc;
+	padding-bottom:504px;
+	
+	}
+	
+	@media #{$medium-only} {
+	width:100%;
+	background:none;
+	background-color:#ccc;
+	padding-bottom:51px;
+	}
+	
+	.news_carousel_component {
+		display:inline-block;
+		width:49.6%;
+		height:506px;
+		position:relative;
+		left:6%;
+		top:103px;
+		
+		@media #{$small-only} { 
+	top:0px;
+	width:90%;
+	left:5%;
+	
+	}
+	
+	@media #{$medium-only} {
+	top:8%;
+	width:90%;
+	left:5%;
+	
+	}
+	
+		
+		
+	   .price_section_div {
+		   background:url(../../../../images/LPL_Desktop_Home_bg.png) no-repeat center center;
+		   width:55%;
+		   height:100%;
+		   position:absolute;
+		   
+		   @media #{$small-only} { 
+	    background:url(../../../../images/LPL_Home_MOBILE_bg.png) no-repeat center center ;
+		background-size:100%;
+    background-color: #ccc;
+	height:none;
+	width:100%;
+	
+	}
+	
+	@media #{$medium-only} {
+	   background:url(../../../../images/LPL_Tablet_Home_bg.png) no-repeat ;
+	background-color: #ccc;
+	height:none;
+	}
+		   
+		   
+		   }
+		.news_shareprice_carousel {
+			width:45%;
+			height:100%;
+			left:55%;
+			position:absolute;
+			background-color:#4B4D52;
+		
+		
+			@media #{$medium-only} {
+	
+	
+	}
+	@media #{$small-only} {
+	width:100%;
+	left:0%;
+	top:442px;
+	
+	}
+			
+			
+	.carousel_heading {
+	font-family: 'univers-light';
+	font-size: 20px;
+	width:100%;
+	position:absolute;
+	text-align:center;
+	top:22%;
+	h3 {
+		color: $lpl-white;
+	}
+	@media #{$medium-only} {
+	top:9%;
+	text-align:center;
+	}
+	@media #{$small-only} {
+	top:8%;
+	font-size: 21px;
+	text-align:center;
+	}
+	@media only screen and (min-width: 600px) and (max-width: 1200px) {
+	top:13%;
+	font-size:17px;
+	}
+}
+
+.carousel-class {
+font-family: 'univers-light';
+font-size: 18px;
+width: 85%;
+	position: absolute;
+	transform: translate(-50%, -50%);
+	left: 50%;
+	top: 50%;
+	color:$lpl-white;
+	@media #{$medium-only} {
+	width: 70%;
+	}
+	@media #{$small-only} {
+	width: 80%;
+	}	
+	@media only screen and (min-width: 600px) and (max-width: 1200px) {
+	font-size:15px;
+	}
+
+p{
+		color: $lpl-white;
+		border:none;
+		
+	@media #{$medium-only} {
+	text-align:center;
+	}
+	@media #{$small-only} {
+	text-align:center;
+	}	
+	}
+	
+
+.slick-dots li{
+    margin:0px;
+    button {
+    border: 1px solid $lpl-white;
+    border-radius: 20px;
+    height: 5px;
+    width: 5px;
+    padding: 4px;
+    margin-top: 4px;
+    margin-left: 5px;
+      }
+	  
+	button::before {
+	font-size:34px;
+	@media #{$small-only} {
+	font-family: inherit;
+    margin-left: 3px;
+    margin-top: -2px;
+	top:7px;
+	left:-1px;
+	
+	
+	}
+		
+
+	
+	} 
+	button {
+	@media #{$small-only} {
+	font-family: inherit;
+    padding:6px;
+	
+	}
+	
+	}
+}
+	
+.slick-active button:before {color:$lpl-white;}
+
+.slick-prev {
+left:-72px;
+background:url(../../../../images/prev-arrow.png) no-repeat center center;
+
+@media #{$small-only} {
+	left:-14px;
+	opacity:0;
+	}
+	
+	
+}
+.slick-next {
+	right:-72px;
+background:url(../../../../images/NextArrow.png) no-repeat center center;
+@media #{$small-only} {
+	right:-14px;
+	opacity:0;
+	}
+
+}
+.slick-prev,.slick-next {
+background-size: 24px 33px;
+width:24px;
+height:33px;
+margin-top:-19px; 
+opacity:0;
+
+
+}
+.slick-prev:before, .slick-next:before { content:'';}
+	
+ }
+ 
+ .carousel_button {
+	position:absolute;
+	bottom:19%;
+	width:100%;
+	text-align:center;
+	@media #{$medium-only} {
+	bottom:9%;
+	}
+	@media #{$small-only} {
+	bottom:22%;
+	}
+	@media only screen and (min-width: 600px) and (max-width: 1200px) {
+	bottom:19%;
+	 }
+	
+	a {
+	color: $lpl-white;
+	border-color: $lpl-white;
+}
+
+}
+			
+			
+			
+			}   	
+		}
+	
+	
+.share_price_component {
+	color: $lpl-white;
+	display:inline-block;
+	width:35%;
+	height:506px;
+	position:relative;
+	background-color:#4A4D51;
+	font-family: 'univers-light';
+	left:8.5%;
+	top:-119px;
+	
+		@media #{$medium-only} {
+	top:30px;
+	text-align:center;
+	width:90%;
+	left:5%;
+	
+	}
+	@media #{$small-only} {
+	top:470px;
+	width:90%;
+	left:5%;
+	text-align:center;
+	}
+	@media only screen and (min-width: 759px) and (max-width: 868px)  {
+	top:-94px;
+	}
+	
+	
+	.content_div {
+	text-align: center;
+    font-size: 28px;
+    position: relative;
+    top: 34px;
+	.curency_class { font-size:45px;}
+	
+	}
+	
+	.content_graph { 
+	background:url(../../../../images/LPL_Desktop_stock.png) no-repeat center center;
+	background-size:80%;
+	height:137px;
+	text-align:center;
+	top:65px;
+	position:relative;
+	
+	@media #{$medium-only} {
+	background:url(../../../../images/LPL_Tablet_Home_graph.png) no-repeat center center;
+	}
+	@media #{$small-only} {
+	background:url(../../../../images/LPL_Home_MOBILE_graph.png) no-repeat center center;
+	background-size:85%;
+	}
+	
+	 }
+	 
+   .statistics{
+	   position:relative;
+	   top:28px;
+	   text-align:center;
+	   .fa-arrow-circle-up  {color:#8AC53F;}
+	   
+	   .statistics_part2 {display:inline-block;}
+	   @media only screen and (min-width: 765px) and (max-width: 868px)  {
+	.statistics_bar  {display:none;}
+	}
+	   
+	   @media #{$small-only} {
+	.statistics_part2 {display:block;}
+	.statistics_bar  {display:none;}
+		}
+	   
+	   }	
+	.date_time_class {   
+	       position: relative;
+    top: 88px;
+    text-align: center; 
+	}
+	
+	.carousel_button {
+	position:absolute;
+	bottom:10%;
+	width:100%;
+	text-align:center;
+	@media #{$medium-only} {
+	bottom:9%;
+	}
+	@media #{$small-only} {
+	bottom:5%;
+	}
+	@media only screen and (min-width: 600px) and (max-width: 1200px) {
+	bottom:12%;
+	 }
+	
+	a {
+	color: $lpl-white;
+	border-color: $lpl-white;
+}
+
+}
+	
+	}	
+	
+	}

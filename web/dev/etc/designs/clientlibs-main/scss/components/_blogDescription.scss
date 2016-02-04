@@ -1,0 +1,67 @@
+/*
+* blog Description styles
+*/
+
+.blogContent{
+	margin-top: 35px;
+	margin-bottom: 60px;
+  .text-wrap{
+      width: 100%;
+      max-width: 770px;
+      display: inline-block;
+      color: $lpl-blue;
+      ul{
+          font-family: 'univers-bold';
+          /*font-family: 'univers-light';*/
+          font-size: 18px;
+          margin-bottom: 35px;
+          @media #{$small-only} {
+              padding-left: 30px;
+          }
+      }
+      h2{
+          color: $lpl-blue;
+          font-family: 'univers-cn';
+          font-size: 38px;
+          margin-top: 0;
+          margin-bottom: 5px;
+          @media #{$small-only} {
+              font-size: 30px;
+              line-height: 1.2;
+              margin-bottom: 20px;
+          }
+      }
+      p{
+          color: $lpl-blue;
+          font-family: 'univers-bold';
+          /*font-family: 'univers-light';*/
+          font-size: 18px;
+          margin-top: 10px;
+          @media #{$small-upto-medium} {
+              color: $lpl-dark-gray;
+          }
+      }
+      @media #{$small-upto-medium} {
+          width: 100%;
+          max-width: 100%;
+      }
+  }
+
+  .image-wrap{
+      margin-top: 20px;
+      width: 100%;
+      max-width: 770px;
+      display: inline-block;
+      p{
+          color: $lpl-dark-gray;
+          /*font-family: 'univers-bold';*/
+          font-family: 'univers-light';
+          font-size: 14px;
+          margin-top: 10px;
+      }
+      @media #{$small-upto-medium} {
+          width: 100%;
+          max-width: 100%;
+      }
+  }
+}

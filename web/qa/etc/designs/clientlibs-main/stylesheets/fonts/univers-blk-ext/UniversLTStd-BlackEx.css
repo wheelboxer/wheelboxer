@@ -1,0 +1,12 @@
+/* Webfont: UniversLTStd-BlackEx */@font-face {
+    font-family: 'UniversLTStd73BlackExt';
+    src: url('UniversLTStd-BlackEx.eot'); /* IE9 Compat Modes */
+    src: url('UniversLTStd-BlackEx.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('UniversLTStd-BlackEx.woff') format('woff'), /* Modern Browsers */
+         url('UniversLTStd-BlackEx.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('UniversLTStd-BlackEx.svg#UniversLTStd-BlackEx') format('svg'); /* Legacy iOS */
+    font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+

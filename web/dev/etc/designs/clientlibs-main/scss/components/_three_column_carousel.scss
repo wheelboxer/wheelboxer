@@ -1,0 +1,236 @@
+.main_div {
+	font-family: 'univers-light';
+	width:100%;
+	height:500px;
+	background-color:#ccc;
+    background:url(../../../../images/LPL_Succession_Planning_dsktp_backgrd.jpg) no-repeat center center;
+	background-size:cover;
+
+    @media #{$medium-only} {
+		
+		background:url(../../../../images/LPL_Tablet_Succession_Planning_bakgrd.jpg) no-repeat center center;
+	background-size:cover;
+	
+	}
+	@media #{$small-only} {
+	
+		background:url(../../../../images/LPL_Mobile_Succession_backgrd.jpg) no-repeat center center;
+	background-size:cover;
+		}
+	
+	
+	
+  .main_carousel_class {
+	   width:85%;
+	   position:relative;
+	   top:50%;
+	   left:50%;
+	   transform:translate(-50%,-50%);
+	  
+	  
+	  .carousel_1  {
+		  
+		 background-color:#fff;
+		   position:relative;
+	  text-align:center;
+	  
+	   .heading_class {position:relative;width:100%;text-align:center;top:5%;
+	   
+	      @media #{$medium-only} {
+	top:0%;
+	}
+	@media #{$small-only} {
+	top:2%;
+		}
+	@media only screen and (min-width: 600px) and (max-width: 1200px) {
+	top:0;
+	
+	}
+	   }
+	 
+	  .text_class{ 
+	  width:70%;
+	  position:absolute;
+	  text-align:center;
+	  top:50%;
+	   left:50%;
+	   transform:translate(-50%,-50%);
+	   color:#999;
+	  }
+	  
+	  .carousel_button {
+		  position:absolute;
+		  width:100%;
+		  bottom:45px;
+		  left:0;
+		  }
+		  
+		  
+		  }
+	  .carousel_2  { 
+	  position:relative;
+	  color:#fff;
+	  background:url(../../../../images/LPL_Succession_Planning_background.png) no-repeat;
+	  background-size:cover;
+	  text-align:center;
+	  
+	  
+	  @media #{$medium-only} {
+	background:url(../../../../images/LPL_Tablet_Succession_Planning_bg.png) no-repeat center center;
+	background-size:cover;
+	 
+	}
+	@media #{$small-only} {
+	background:url(../../../../images/LPL_Tablet_Succession_Planning_bg.png) no-repeat;
+	background-size:cover;
+	}
+	@media only screen and (min-width: 600px) and (max-width: 1200px) {
+	
+	
+	}
+	  
+	  
+	  .heading_class {position:relative;width:100%;text-align:center;top:5%;color:#fff;
+	  
+	   @media #{$medium-only} {
+	top:0%;
+	}
+	@media #{$small-only} {
+	top:2%;
+		}
+	@media only screen and (min-width: 600px) and (max-width: 1200px) {
+	
+	top:0%;
+	}
+	  
+	  }
+	 
+	  .text_class{ 
+	  width:70%;
+	  position:absolute;
+	  text-align:center;
+	  top:50%;
+	   left:50%;
+	   transform:translate(-50%,-50%);
+	  }
+	  
+	  .carousel_button {
+		  
+		  position:absolute;
+		  width:80%;
+		  bottom:45px;
+		  left:0;
+		  top:77%;
+	   left:50%;
+	   transform:translate(-50%,-50%);
+		a {color:#fff;
+		border-color:#fff;} 
+		
+		 @media #{$medium-only} {
+	width:90%;
+	font-size:14px;
+	}
+	@media #{$small-only} {
+	width:90%;
+	font-size:13px;
+		}
+	@media only screen and (min-width: 600px) and (max-width: 1200px) {
+	
+	
+	}
+		
+		
+		  }
+	  
+	  }
+	  .carousel_3 { 
+	  
+	  background-color:#fff;
+	  position:relative;
+	  text-align:center;
+	  
+	   .heading_class {position:relative;width:100%;text-align:center;top:5%;
+	   
+	     @media #{$medium-only} {
+	top:0%;
+	}
+	@media #{$small-only} {
+	top:2%;
+		}
+	@media only screen and (min-width: 600px) and (max-width: 1200px) {
+	
+	top:1%;
+	}
+	   
+	   }
+	 
+	  .text_class{ 
+	  width:70%;
+	  position:absolute;
+	  text-align:center;
+	  top:50%;
+	   left:50%;
+	   transform:translate(-50%,-50%);
+	   color:#999;
+	  }
+	  
+	  .carousel_button {
+		  position:absolute;
+		  width:100%;
+		  bottom:45px;
+		  left:0;
+		  }
+	  
+	  
+	  
+	  }
+	  
+	  .slick-slide {
+		  margin: 15px;
+		  height:320px;
+          padding: 10px;
+		  }
+		  
+		.slick-prev {
+left:-62px;
+background:url(../../../../images/prev-arrow.png) no-repeat center center;
+
+@media #{$small-only} {
+	left:-14px;
+	opacity:0;
+	}
+	
+	
+}
+.slick-next {
+	right:-62px;
+background:url(../../../../images/NextArrow.png) no-repeat center center;
+@media #{$small-only} {
+	right:-14px;
+	opacity:0;
+	}
+
+}
+.slick-prev,.slick-next {
+background-size: 24px 33px;
+width:24px;
+height:33px;
+margin-top:-19px; 
+	
+ @media #{$medium-only} {
+	 display:none !important;
+		}
+	@media #{$small-only} {
+	
+		}
+	@media only screen and (min-width: 600px) and (max-width: 1200px) {
+	
+	
+	}
+
+}
+.slick-prev:before, .slick-next:before { content:'';}
+	  
+	   }	
+	
+	}

@@ -1,0 +1,45 @@
+/*
+* AEM related styles - AEM
+*/
+
+.row {
+  max-width: 100%;
+  @media #{$small-up} {
+    .fixed-logo {
+      //width: 481px;
+      position: relative;
+    }
+    .fixed-instagram {
+      padding: 0;
+    }
+  }
+
+  @media #{$medium-up} {
+    .fixed-instagram {
+      width: auto;
+      margin-left: 390px;
+      padding-right: 10px;
+      margin-top: 84px;
+    }
+  }
+  @media #{$custom-500-768} {
+    .fixed-instagram {
+      margin-left: 240px;;
+      position: absolute;
+      top: 13px;
+      margin-top: 89px;
+    }
+  }
+  @media #{$large-up} {
+    .fixed-logo {
+      width: 481px;
+      position: relative;
+    }
+    .fixed-instagram {
+      width: 500px;
+      margin-left: 520px;
+      padding: 0;
+      margin-top: 0;
+    }
+  }
+}

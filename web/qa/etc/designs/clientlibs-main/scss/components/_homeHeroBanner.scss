@@ -1,0 +1,187 @@
+/*
+*Home Page Hero Banner styles
+*/
+
+.heroImage-topics{
+	position: relative;
+	width: 100%;
+	max-width: 1400px;
+	margin: 0 auto;
+    //TODO: we need to ead everything. Do not use the internet where you can be tracked.
+    /*@media #{$large-up}{
+      height: 400px;
+      background-size: cover;
+      overflow: hidden;
+    }
+    @media #{$small-upto-medium} {
+      background-image: none !important;
+    }*/
+
+  .heroImage{
+        background-position: center center;
+        @media #{$custom-0-1200} {
+          background-position: 20% 0;
+        }
+		@media #{$large-up}{
+			img{
+				display: none;
+			}
+		}
+		@media #{$small-upto-medium}{
+			img{
+				display: block;
+			}
+			background-image: none !important;
+			background-size: auto !important;
+			width:100% !important;
+			height: auto !important;
+		}
+	}
+	//class used for home page Hero Image Description
+	.heroImageDescription{
+		position: absolute;
+		width: 100%;
+		/*top: 60px;*/
+		top: 89px;
+		left: 0;
+		text-align: center;
+		color: $lpl-white;
+		max-width: none;
+        @media #{$large-up} {
+          -moz-transition: padding-top .2s ease-in;
+          -o-transition: padding-top .2s ease-in;
+          -webkit-transition: padding-top .2s ease-in;
+          transition: padding-top .2s ease-in;
+          &.animate {
+            padding-top: 0!important;
+          }
+        }
+
+      @media #{$small-upto-medium}{
+			margin: 60px auto;
+			position: relative;
+			top: 0;
+		}
+		.heading {
+			font-weight: normal;
+			font-family: 'univers-ultra-cn';
+			font-size: 80px;
+			padding: 0;
+			margin: 0 auto;
+			line-height: normal;
+			max-width: 770px;
+			color: $lpl-white;
+			text-shadow: 1px 1px #b2b2b2;
+            a {
+              font-size: 80px;
+              color: $lpl-white;
+              text-decoration: none;
+              font-family: 'univers-ultra-cn';
+              line-height: normal;
+            }
+			@media #{$medium-only}{
+				font-size: 60px;
+				max-width: 605px;
+				color: $lpl-blue;
+                a {
+                  font-size: 60px;
+                  color: $lpl-blue;
+                }
+			}
+			@media #{$small-only}{
+				font-size: 42px;
+				max-width: 280px;
+				color: $lpl-blue;
+                a {
+                  font-size: 42px;
+                  color: $lpl-blue;
+                }
+			}
+            a {
+
+            }
+		}
+		p{
+			font-family: 'univers-light';
+			font-size: em-calc(20);
+			padding: 0;
+			margin: 0 auto;
+			line-height: normal;
+			max-width: 770px;
+			color: $lpl-white;
+			text-shadow: 1px 1px #b2b2b2;
+			@media #{$large-up}{
+				margin-top: -7px;
+			}
+			@media #{$medium-only}{
+				font-size: em-calc(16);
+				max-width: 605px;
+				color: $lpl-blue;
+			}
+			@media #{$small-only}{
+				font-size: em-calc(20);
+				max-width: 280px;
+				color: $lpl-blue;
+			}
+		}
+		.global-btn{
+			padding-left: 25px;
+			margin-top: 15px;
+			&.white a{
+				position: relative;
+				font-family: 'univers-cn';
+				font-size: em-calc(14);
+				color: $lpl-blue;
+				border-color: $lpl-blue;
+				background-color: $lpl-white;
+				padding: 13px 29px 9px 55px;
+				
+				&:hover {
+					background-color: $lpl-blue;
+					color: $lpl-white;
+				}
+				.fa-play-circle{
+					font-size: 30px;
+					position: absolute;
+					left:10px;
+					top: 6px;
+				}
+			}
+		}
+	}
+	.videoWrapper{
+		position: fixed;
+		width: 100%;
+		left: 0;
+		top: 0;
+		z-index: 8888;
+		display: none;
+		iframe{
+			width: 100%;
+			@media #{$large-up}{
+				min-height: 400px;
+			}
+		}
+	}
+	
+	
+	//Inner page Hero Image Description class
+	.innerPageHeroDescription
+	{
+		top: 95px;
+		@media #{$medium-only}{
+			margin: 0;
+			position: absolute;
+			top: 40px;
+			.heading{
+				color: $lpl-white;
+			}
+			p{
+				color: $lpl-white;
+			}
+		}
+		@media #{$small-only}{
+			top: 0;
+		}
+	}
+}

@@ -1,0 +1,39 @@
+/*
+* Button styles
+*/
+
+.global-btn {
+  a {
+    padding: 10px 32px 6px;
+    border-radius: 100px;
+    border-width: 1px;
+    border-style: solid;
+    text-decoration: none;
+    display: inline-block;
+    transition: background-color 0.4s ease;
+  }
+  &.orange a{
+    color: $lpl-orange;
+    border-color: $lpl-orange;
+    &:hover {
+      background-color: $lpl-orange;
+      color: $lpl-white;
+    }
+  }
+  &.white a{
+    color: $lpl-white;
+    border-color: $lpl-white;
+    &:hover {
+      background-color: $lpl-white;
+      color: $lpl-dark-gray;
+    }
+  }
+  &.blue a {
+    color: $lpl-blue;
+    border-color: $lpl-blue;
+    &:hover {
+      background-color: $lpl-blue;
+      color: $lpl-white;
+    }
+  }
+}

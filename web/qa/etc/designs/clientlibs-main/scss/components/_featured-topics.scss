@@ -1,0 +1,42 @@
+/*
+* Featured Topics Component Styles
+*/
+
+.featured-topics {
+    @media #{$large-up} {
+        padding: 130px 0;
+    }
+    @media #{$small-upto-medium} {
+        padding-bottom: 70px;
+    }
+    @media #{$medium-only} {
+      .medium-centered {
+        clear: both;
+      }
+    }
+}
+.featured-topic {
+  text-align: center;
+  width: 100%;
+  @media #{$small-upto-medium} {
+    padding: 70px 0 0;
+  }
+  h2 {
+    padding-left: 14%;
+    padding-right: 14%;
+    margin-bottom: 12px;
+    //margin: 0;
+  }
+  .fa:before {
+    font-size: 48px;
+    color: $lpl-blue;
+  }
+  .text-wrap {
+    padding-bottom: 20px;
+  }
+  p {
+    padding-left: 5%;
+    padding-right: 5%;
+    //margin: 0;
+  }
+}

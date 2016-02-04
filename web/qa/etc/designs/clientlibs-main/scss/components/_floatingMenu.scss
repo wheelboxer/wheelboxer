@@ -1,0 +1,98 @@
+/*
+*Floating Menu styles
+*/
+
+.floatingMenu{
+	position: fixed;
+	top: 320px;
+	right: 0;
+	z-index: 8888;
+	ul{
+		li{
+			list-style: none;
+			display: block;
+			margin-bottom: 3px;
+			a{
+				text-decoration: none;
+				width: 90px;
+				text-align:center;
+				display: inline-block;
+				padding: 15px 0 12px 0;
+				border: 1px solid $lpl-blue;
+				color: $lpl-blue;
+				background-color: $lpl-white;
+				font-family: 'univers-cn';
+				font-size: 12px;
+				-webkit-transition: background-color 0.4s ease;
+				-moz-transition: background-color 0.4s ease;
+				-o-transition: background-color 0.4s ease;
+				transition: background-color 0.4s ease;
+				&:hover{
+					color: $lpl-white;
+					background-color: $lpl-blue;
+				}
+				.fa-phone{
+					font-size: 30px;
+					display: block;
+					text-align: center;
+					@media #{$large-up}{
+						&:hover{
+							/*color: $lpl-white;
+							background-color: $lpl-blue;*/
+						}
+					}
+					@media #{$custom-900}{
+						display: none
+					}
+				}
+				.fa-user{
+					font-size: 30px;
+					display: block;
+					text-align: center;
+					@media #{$custom-900}{
+						display: none
+					}
+				}
+				/*query for a*/
+				@media #{$custom-900}{
+					width: 100%;
+					font-size: em-calc(14);
+					text-transform: uppercase;
+					&.contactUs, &.findAnAdvisor{
+						text-align: center;
+						padding-right: 40px;
+					}
+					//&.findAnAdvisor{
+					//	text-align: center;
+					//	padding-left: 40px;
+					//}
+				}
+				@media #{$small-only}{
+					&.contactUs, &.findAnAdvisor {
+						//text-align: center;
+						//padding-right: 0;
+						padding: 15px 0 10px 0;
+					}
+				}
+			}
+			/*query for li*/
+			@media #{$custom-900}{
+				display: inline-block;
+				margin-bottom: 0;
+				width: 50%;
+				float: left;
+			}
+		}
+		/*query for ul*/
+		@media #{$custom-900}{
+			margin: 0;
+			padding: 0;
+		}
+	}
+	/*query for .floatingMenu*/
+	@media #{$custom-900}{
+		top: auto;
+		bottom: 0;
+		width: 100%;
+	}
+}

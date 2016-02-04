@@ -1,0 +1,42 @@
+/*
+* Breadcrumb Styles
+*/
+
+.breadcrumb {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  @media #{$small-upto-medium} {
+    display: none;
+  }
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  li, a {
+    color: $lpl-white;
+    font-family: univers-light;
+    font-size: 11px;
+  }
+  li {
+    display: inline-block;
+    &:after {
+      content: "\003E";
+      padding-left: 10px;
+      text-decoration: none;
+      padding-right: 6px;
+    }
+    &.current-page:after {
+      content: "";
+    }
+  }
+  a {
+    text-decoration: none;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+

@@ -1,0 +1,194 @@
+.blog_teaser_main_div {
+background:url(../../../../images/LPL_Succession_Planning_desktop.jpg) no-repeat center center;
+background-size:cover;
+width:100%;
+height:400px;
+position:relative;
+
+@media #{$medium-only} {
+	background:url(../../../../images/LPL_Tablet_Succession_Planning.jpg) no-repeat center center;
+	background-size:cover;
+	height:600px;
+	}
+	@media #{$small-only} {
+	background:url(../../../../images/LPL_Mobile_Succession.png) no-repeat center center;
+	height:780px;
+	background-size:cover;
+	}
+	@media only screen and (min-width: 600px) and (max-width: 1200px) {
+	
+	
+	}
+
+
+.sub_div {
+width:80%;
+display:inline-block;
+height:250px;
+position: absolute;
+left: 50%;
+top: 50%;
+transform: translate(-50%, -50%);
+@media #{$medium-only} {
+	width:90%;
+	
+	}
+	@media #{$small-only} {
+	top:18%;
+	}
+	@media only screen and (min-width: 600px) and (max-width: 1200px) {
+	
+	
+	}
+
+
+.img_div {
+background:url(../../../../images/LPL_Succession_Planning_desktop_persn.png) no-repeat center center;
+background-size:cover;
+position:relative;
+width:32%;
+height:100%;
+float:left;
+
+@media #{$medium-only} {
+	
+	background:url(../../../../images/LPL_Tablet_Succession_Planning_tblt_persn.png) no-repeat center center;
+	background-size:cover;
+	width:46%;
+	}
+	@media #{$small-only} {
+	background:url(../../../../images/LPL_Mobile_Succession_persn.png) no-repeat center center;
+	background-size:cover;
+	width:100%;
+	
+	}
+	@media only screen and (min-width: 600px) and (max-width: 1200px) {
+	
+	
+	}
+
+}
+.text_div {
+ width:63%;
+float:right;
+position:relative;
+height:70%;
+top: 50%;
+transform: translate(-0%, -50%);
+
+
+@media #{$medium-only} {
+	font-size:28px;
+	width:50%;
+	top:0;
+	height:100%;
+	transform:none;
+	}
+	@media #{$small-only} {
+	width:100%;
+	
+	}
+	@media only screen and (min-width: 600px) and (max-width: 1200px) {
+	
+	
+	}
+
+
+.text_title { 
+font-family: 'univers-light';
+width:100%;
+position:relative;
+color: $lpl-white;
+
+.title_div {
+     display:inline-block;
+    font-size:38px;
+    font-weight: bolder;
+	font-stretch: condensed;
+	width:52%;
+	@media #{$medium-only} {
+	font-size:32px;
+	width:100%;
+	display:block;
+	}
+	@media #{$small-only} {
+	width:100%;
+	display:block;
+	font-size:31px;
+	
+	}
+	@media only screen and (min-width: 600px) and (max-width: 1200px) {
+	
+	
+	}
+	
+	}
+	
+.divider { 
+    display: inline-block;
+    background-color: #fff;
+    width: 1px;
+    height: 35px;
+    position: relative;
+    top: 7px;
+    left: 15px;
+	@media #{$medium-only} {
+	display:none;
+	
+	}
+	@media #{$small-only} {
+	display:none;
+	}
+	@media only screen and (min-width: 600px) and (max-width: 1200px) {
+	
+	
+	}
+	
+}
+.logo_div { background:url(../../../../images/LPL_Succession_Planning_logos.png) no-repeat;
+    width: 150px;
+    height: 100%;
+    display: inline-block;
+    height: 25px;
+    position: relative;
+    left: 35px;
+	top:3px;
+	
+	@media #{$medium-only} {
+	display:block;
+	left:0px;
+	padding:20px;
+	
+	}
+	@media #{$small-only} {
+	width:100%;
+	left:0px;
+	padding:10px;
+	}
+	@media only screen and (min-width: 600px) and (max-width: 1200px) {
+	
+	
+	}
+	
+	}	
+.sub_text { font-size:17px;padding-top:5px;
+@media #{$medium-only} {
+	
+	
+	}
+	@media #{$small-only} {
+	
+	}
+	@media only screen and (min-width: 600px) and (max-width: 1200px) {
+	
+	
+	}
+}		
+
+}
+
+}
+
+	}
+
+}

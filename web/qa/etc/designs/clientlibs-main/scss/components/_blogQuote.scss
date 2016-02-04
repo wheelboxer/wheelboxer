@@ -1,0 +1,39 @@
+/*
+* blog Quote styles
+*/
+
+
+
+.blogQuote{
+	width: 100%;
+	max-width: 300px;
+	display: inline-block;
+	font-family: 'univers-light';
+	.fa-quote-left{
+		font-size: 60px;
+		color: $lpl-orange;
+		@media #{$small-upto-medium} {
+			font-size: 48px;
+		}
+	}
+	p{
+		font-size: 38px;
+		color: $lpl-blue;
+		margin: 45px 0 35px 0;
+		@media #{$small-upto-medium} {
+			font-size: 30px;
+		}
+	}
+	small{
+		font-size: 24px;
+		color: $lpl-blue;
+		@media #{$small-upto-medium} {
+			font-size: 18px;
+		}
+	}
+	@media #{$small-upto-medium} {
+		width: 100%;
+		max-width: 100%;
+		margin-bottom: 55px;
+	}
+}

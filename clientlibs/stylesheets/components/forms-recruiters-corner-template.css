@@ -1,0 +1,19 @@
+/*
+* Recruiters Corner Template styles - Recruiters Corner Template
+*/
+/* line 6, ../../scss/components/forms-recruiters-corner-template.scss */
+.recruiters-map-template {
+  background-color: #256788;
+}
+/* line 8, ../../scss/components/forms-recruiters-corner-template.scss */
+.recruiters-map-template #map {
+  /*width: 100%;*/
+}
+/* line 13, ../../scss/components/forms-recruiters-corner-template.scss */
+.recruiters-map-template #map svg path {
+  stroke: #FFF;
+}
+/* line 17, ../../scss/components/forms-recruiters-corner-template.scss */
+.recruiters-map-template text, .recruiters-map-template rect {
+  display: none;
+}

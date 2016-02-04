@@ -1,0 +1,61 @@
+/*
+* Page Level Global Styles
+*/
+//overwrite default foundation max-width for this project
+.row {
+  max-width: 73.5rem;
+}
+body {
+    vertical-align: baseline;
+    font-family: Arial, sans-serif;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+}
+h1,h2,h3,h4,h5,h6 {
+  font-weight: normal;
+}
+h1,h3,h4 {
+    color: $lpl-white;
+}
+h2,h5,h6 {
+    color: $lpl-blue;
+  a {
+    color: $lpl-blue;
+    text-decoration: none;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+h2 {
+    font-size: 24px;
+    margin-bottom: 24px;
+    font-family: univers-cn;
+}
+h5 {
+  font-family: univers-ultra-cn;
+  font-size: 40px;
+  text-align: center;
+  line-height: 43px;
+}
+h6 {
+  font-family: univers-cn;
+  font-size: 20px;
+  a {
+    font-size: 20px;
+  }
+}
+p {
+    color: $lpl-black;
+    font-size: 16px;
+    font-family: univers-light;
+}
+a {
+    font-size: 14px;
+    font-family: univers-cn;
+}
+
+
+.fixed{
+	position: fixed;
+}

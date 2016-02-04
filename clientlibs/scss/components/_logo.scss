@@ -1,0 +1,104 @@
+/*
+* AEM related styles - AEM
+*/
+.fixed-logo {
+
+  .social-link-header {
+    font-size: 12px;
+    text-transform: uppercase;
+    margin-top: 12px;
+    margin-left: 6px;
+    @media #{$medium-up} {
+      position: fixed;
+    }
+    a {
+      color: black;
+      text-decoration: none;
+      margin-right: 15px;
+      transition: all .2s ease;
+      &:hover {
+        color: #A7A7A7;
+      }
+    }
+  }
+  @media #{$small-up} {
+    .logo-container {
+      width: 295px;
+      margin-top: 50px;
+      display: block;
+      img {
+        //position: fixed;
+        width: 295px;
+        //top: 80px;
+        left: 16px;
+      }
+    }
+    h1 {
+      //position: fixed;
+      top: 198px;
+      left: 21px;
+      font-size: 14px;
+      //margin-left: 3px;
+    }
+  }
+
+  @media #{$medium-up} {
+    .logo-container {
+      width: 350px;
+      img {
+        position: fixed;
+        width: 350px;
+        top: 130px;
+        left: 16px;
+      }
+    }
+    h1 {
+      position: fixed;
+      top: 198px;
+      left: 21px;
+      font-size: 16px;
+    }
+  }
+  @media #{$custom-500-768} {
+    width: 194px;
+    .logo-container {
+      width: 194px;
+      margin-top: 134px;
+      img {
+        width: 194px;
+        top: 100px;
+      }
+    }
+    h1 {
+      font-size: 9px;
+      top: 138px;
+      left: 18px;
+    }
+  }
+  @media #{$large-up} {
+    .logo-container {
+      width: 481px;
+      margin-top: 134px;
+      img {
+        position: fixed;
+        width: 481px;
+        top: 130px;
+        left: 16px;
+      }
+    }
+    h1 {
+      position: fixed;
+      top: 223px;
+      left: 21px;
+    }
+    p {
+      position: fixed;
+      top: 227px;
+      left: 21px;
+      margin-left: 4px;
+      font-size: 16px;
+      font-weight: bold;
+      text-transform: uppercase;
+    }
+  }
+}

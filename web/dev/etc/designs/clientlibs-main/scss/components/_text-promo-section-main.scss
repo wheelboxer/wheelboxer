@@ -1,0 +1,483 @@
+.text-promo-section-main {
+	width:100%;
+	height:1435px;
+	background:url(../../../../images/LPL_Desktop_Advisor_Assistance_bg_02.jpg) no-repeat center center;
+	background-size:cover;
+	position:relative;
+	
+	
+	@media #{$small-only} {
+	background:url(../../../../images/LPL_Advisor_Assistance_MOBILE_bg_02.jpg) no-repeat center center;
+	background-size:cover;
+	height:2795px;
+	
+	}
+	
+	@media #{$medium-only} {
+	background:url(../../../../images/LPL_Tablet_Advisor_Assistance_bg_02.jpg) no-repeat center center;
+	background-size:cover;
+	height:1745px;
+	}
+	
+	@media only screen and (min-width: 600px) and (max-width: 1200px) {
+	
+		}
+	 
+	
+	.main-div{
+	.carousel-div {
+	width:100%;
+	position:absolute;
+	bottom:6%;
+	@media #{$small-only} {
+	bottom:4%;
+	
+	}
+	
+	@media #{$medium-only} {
+	bottom:6%;
+	}
+	.carousel-class {
+	width:50%;
+	margin:0 auto;
+	text-align:center;
+	color:#fff;
+	@media #{$large-up} {
+	
+	}
+	@media #{$small-only} {
+	width:90%;
+	}
+	
+	@media #{$medium-only} {
+	width:73%;
+	}
+	
+	@media only screen and (min-width: 600px) and (max-width: 1200px) {
+	
+		}
+	
+	
+	.header { 
+	
+	font-size:28px;
+	padding:15px;
+	
+	}
+	.carousel-text {
+	
+	
+		
+	}
+	.button-class { padding-top:16px;	}
+	
+	.slick-track {}
+	.slick-prev {
+left:-60px;
+background:url(../../../../images/prev-arrow.png) no-repeat center center;
+
+@media #{$small-only} {
+	left:-14px;
+	opacity:0;
+	}
+	
+	
+}
+.slick-next {
+	right:-60px;
+background:url(../../../../images/NextArrow.png) no-repeat center center;
+@media #{$small-only} {
+	right:-14px;
+	opacity:0;
+	}
+
+}
+.slick-prev,.slick-next {
+background-size: 16px 33px;
+width:24px;
+height:33px;
+margin-top:-19px; 
+
+@media #{$small-only} {
+	display:none !important;
+	}
+	
+	@media #{$medium-only} {
+	display:none !important;
+	
+	}
+
+
+
+}
+.slick-prev:before, .slick-next:before { content:'';}
+	
+	
+	
+	}
+	
+	}
+	
+	.header-div {
+	width:100%;
+	position:absolute;
+	text-align:center;
+	top:11%;
+	font-size:35px;
+	color:#fff;
+	@media #{$large-up} {
+	
+	}
+	@media #{$small-only} {
+	top:1%;
+	font-size:30px;
+	}
+	
+	@media #{$medium-only} {
+	top:3%;
+	font-size:30px;
+	}
+	
+	@media only screen and (min-width: 600px) and (max-width: 1200px) {
+	
+		}
+	
+	}
+	
+	.main-container { 
+	height:760px;
+	padding:0 14px 0 14px;
+	position:absolute;
+	@media #{$large-up} {
+	top:50%;
+	left:50%;
+	transform:translate(-50%,-50%);
+	}
+	
+	@media #{$small-only} {
+	}
+	
+	@media #{$medium-only} {
+	top:10%;
+	}
+	
+	}
+	
+	.sub-div-1{
+	width:100%;
+	height:340px;
+	position:absolute;
+	text-align:center;
+	top:0;
+	color:#fff;
+	
+	@media #{$large-up} {
+	
+	}
+	@media #{$small-only} {
+	height:2615px;
+	width:91%;
+	margin:0 auto;
+	padding:0px;
+	top:150px;
+	
+	}
+	
+	@media #{$medium-only} {
+	height:1120px;
+	width:95%;
+	margin:0 auto;
+	padding:0px;
+	}
+	
+	@media only screen and (min-width: 600px) and (max-width: 1200px) {
+	
+		}
+	
+	
+	.container-1  {
+	background-color:#4a4b50; 
+	height:340px;
+	width:32%;
+	
+	@media #{$large-up} {
+	
+	}
+	@media #{$small-only} {
+	width:100%;
+	display:block;
+	}
+	
+	@media #{$medium-only} {
+	width:48%;
+	display:block;
+	}
+	
+	@media only screen and (min-width: 600px) and (max-width: 1200px) {
+	
+		}
+	
+	.header-div {width:90%;position:absolute;top:6%;
+	p {font-size:28px;color:#fff;}
+	
+	}
+	.text-container { width:80%;position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);text-align:center;}
+	.button-class{position:absolute;width:90%;bottom:13%;}
+	}
+
+.container_divvv1 { 
+width:64%;padding:0px;float:right;
+@media #{$large-up} {
+	
+	}
+	@media #{$small-only} {
+	width:100% !important;
+	top:250px;
+	}
+	
+	@media #{$medium-only} {
+	width:100%;
+	top:50px;
+	}
+	
+	@media only screen and (min-width: 600px) and (max-width: 1200px) {
+	
+		}
+
+
+}
+
+   .hidden-container{
+   position:absolute;
+   display:none;
+   background-color:#4a4b50;
+   height:340px;
+   width:50%;
+   right:0;
+   @media #{$large-up} {
+	
+	}
+	@media #{$small-only} {
+	width:100%;
+	display:block;
+	top:377px;
+	}
+	
+	@media #{$medium-only} {
+	display:block;
+	}
+	
+	@media only screen and (min-width: 600px) and (max-width: 1200px) {
+	
+		}
+   
+	.header-div {width:90%;position:absolute;top:4%;
+	p {font-size:28px;color:#fff;}
+	
+	}
+	.text-container { width:80%;position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);text-align:center;}
+	.button-class{position:absolute;width:90%;bottom:13%;}
+	
+	
+	
+	
+   }
+	.container-2  {
+	background-color:#4a4b50;height:340px;width:50%;float:right;
+	
+	@media #{$large-up} {
+	
+	}
+	@media #{$small-only} {
+	width:100%;
+	position:absolute;
+	top:540px;
+	}
+	
+	@media #{$medium-only} {
+	}
+	
+	@media only screen and (min-width: 600px) and (max-width: 1200px) {
+	
+		}
+	
+	
+	.header-div {width:90%;position:absolute;top:0%;
+	
+	
+	
+	
+	p {font-size:28px;color:#fff;
+	
+	@media #{$small-only} {
+	font-size:23px;
+	}
+	
+	@media #{$medium-only} {
+	font-size:23px;
+	}
+	}
+
+	
+	}
+	.text-container { width:80%;position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);text-align:center;}
+	.button-class{position:absolute;width:90%;bottom:13%;}
+	}
+	.container-3  {height:340px;width:50%; 
+	background:url(../../../../images/LPL_Desktop_Advisor_Assistance_c1.jpg) no-repeat center center;
+	background-size:cover;
+	
+	@media #{$large-up} {
+	
+	}
+	@media #{$small-only} {
+	background:url(../../../../images/LPL_Advisor_Assistance_MOBILE_container_img.jpg) no-repeat center center;
+	background-size:cover;
+	width:100%;
+	top:165px;
+	}
+	
+	@media #{$medium-only} {
+	background:url(../../../../images/LPL_Tablet_Advisor_Assistance_c1.jpg) no-repeat center center;
+	background-size:cover;
+	}
+	
+	@media only screen and (min-width: 600px) and (max-width: 1200px) {
+	
+		}
+	
+	}
+	
+	
+	}
+	.sub-div-2 {
+	width:100%;
+	height:340px;
+	position:absolute;
+	bottom:0px;
+	text-align:center;
+	color:#fff;
+	
+	@media #{$large-up} {
+	
+	}
+	@media #{$small-only} {
+	height:700px;
+	width:91%;
+	top:440px;
+	margin:0 auto;
+	
+	}
+	
+	@media #{$medium-only} {
+	width:95%;
+	margin:0 auto;
+	padding:0px;
+	top:785px;
+	}
+	
+	@media only screen and (min-width: 600px) and (max-width: 1200px) {
+	
+		}
+.container_divvv2 { width:64%;padding:0px;
+
+@media #{$large-up} {
+	
+	}
+	@media #{$small-only} {
+	width:100%;
+	top:1220px;
+	}
+	
+	@media #{$medium-only} {
+	width:100%;
+	}
+	
+	@media only screen and (min-width: 600px) and (max-width: 1200px) {
+	
+		}
+
+
+}
+	.container-4  {
+	height:340px;width:50%;
+	background:url(../../../../images/LPL_Desktop_Advisor_Assistance_c2.jpg) no-repeat center center;
+	background-size:cover;
+	@media #{$large-up} {
+	
+	}
+	@media #{$small-only} {
+	background:url(../../../../images/LPL_Advisor_Assistance_MOBILE_c2.jpg) no-repeat center center;
+	background-size:cover;
+	width:100%;
+	
+	}
+	
+	@media #{$medium-only} {
+	background:url(../../../../images/LPL_Tablet_Advisor_Assistance_c2.jpg) no-repeat center center;
+	background-size:cover;
+	}
+	
+	@media only screen and (min-width: 600px) and (max-width: 1200px) {
+	
+		}
+	
+	
+	
+	}
+	
+	.container-5  {background-color:#4a4b50;height:340px;width:50%;
+	
+	@media #{$large-up} {
+	
+	}
+	@media #{$small-only} {
+	width:100%;
+	top:35px;
+	}
+	
+	@media #{$medium-only} {
+	
+	}
+	
+	@media only screen and (min-width: 600px) and (max-width: 1200px) {
+	
+		}
+	
+	.header-div {width:90%;position:absolute;top:4%;
+	p {font-size:28px;color:#fff;}
+	
+	}
+	.text-container { width:80%;position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);text-align:center;}
+	.button-class{position:absolute;width:90%;bottom:13%;}
+	}
+	.container-6  {
+	background-color:#4a4b50;height:340px;width:32%;
+	
+	@media #{$large-up} {
+	
+	}
+	@media #{$small-only} {
+	display:none;
+	}
+	
+	@media #{$medium-only} {
+	display:none;
+	}
+	
+	@media only screen and (min-width: 600px) and (max-width: 1200px) {
+	
+		}
+	
+	.header-div {width:90%;position:absolute;top:4%;
+	p {font-size:28px;color:#fff;}
+	
+	}
+	.text-container { width:80%;position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);text-align:center;}
+	.button-class{position:absolute;width:90%;bottom:13%;}
+	}
+	}
+	
+	}
+	
+	}

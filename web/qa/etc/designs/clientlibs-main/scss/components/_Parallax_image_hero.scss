@@ -1,0 +1,39 @@
+
+.Parallax_main_div {
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  width:100%;
+  position:relative;
+  height:400px;
+  background-size:cover;
+  top:0px;
+  .content_class { position:relative;top:150px;
+  
+  @media #{$small-only} {
+	top:70px;
+	}
+  
+  }
+  
+  .button-div {text-align:center;padding:20px;}
+  .p1 {
+    color:#fff;
+    padding:0 48px;
+    text-align:center;
+    width:100%;
+    font-size:17px;
+  
+    h5 {
+      color: $white;
+      margin: 0 0 10px;
+    }
+    p {
+      position:relative;
+      color: $white;
+      margin: 0;
+      font-family: 'univers-cn';
+      //top:-40px;
+    }
+  }
+  
+ }
